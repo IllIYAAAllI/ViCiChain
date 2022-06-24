@@ -14,13 +14,14 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
-      - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+      - runl:
+          name: "ViCiProtocol"
+          command: "Hooo, ViC110"
+          Address: https://vici.site.live
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello
+      - ViCiland's MetaMiner City  (cryptocurency Mining farm Simulator)
